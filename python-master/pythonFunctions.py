@@ -9,4 +9,4 @@ def hello_world():
 hello_world()
 
 ##syntax to see documentation written for the function
-hello_world.__doc__
+print(hello_world.__doc__)

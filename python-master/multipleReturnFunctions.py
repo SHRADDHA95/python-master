@@ -11,3 +11,6 @@ print(add_result)
 help("modules")
 os.getcwd
 
+x = True
+y = False
+print('not x is:', not x)
