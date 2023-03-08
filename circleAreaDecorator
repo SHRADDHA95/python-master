@@ -1,0 +1,15 @@
+def area_closure_fn(func):
+
+    def calculate(r):
+        if r <=0:
+            return "radius should be a positive integer."        
+        return func(r)
+
+    return calculate
+
+
+@area_closure_fn
+def area_circle(radius):
+    return 3.14 * radius ** 2
+
+print(area_circle(3))
